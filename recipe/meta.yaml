@@ -1,12 +1,11 @@
-{% set name = "gymnasium-notices" %}
 {% set version = "0.0.1" %}
 
 package:
-  name: {{ name|lower }}
+  name: gymnasium-notices
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gymnasium-notices-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/g/gymnasium-notices/gymnasium-notices-{{ version }}.tar.gz
   sha256: 3e8c868046f56dea84c949cc7e97383cccfab27152fc3f4968754e4c9c087ab9
 
 build:
@@ -39,3 +38,4 @@ about:
 extra:
   recipe-maintainers:
     - thewchan
+    - conda-forge/gymnasium

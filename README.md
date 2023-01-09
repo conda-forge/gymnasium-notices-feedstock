@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/gymnasium](https://github.com/conda-forge/gymnasium/)
 * [@thewchan](https://github.com/thewchan/)
 
